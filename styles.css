@@ -1,0 +1,30 @@
+header{
+    height: 80px;
+    background-color: rgba(146, 76, 225, 0.727);
+    display: flex;
+    align-items: center;
+
+}
+li{
+    color: rgb(0, 0, 0);
+    list-style: none;
+    padding-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul{
+    padding: 20px 32%; 
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+body {
+    margin: 0px;
+
+}
+header img{
+    height: 100px;
+    width: 100px;
+}
+.logo-ls{
+    padding-left: 20px;
+}
