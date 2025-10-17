@@ -81,19 +81,6 @@ body {
   margin-bottom: 25px;
 }
 
-.btn {
-  background: #a8745b;
-  color: #fff;
-  padding: 12px 30px;
-  text-decoration: none;
-  border-radius: 25px;
-  transition: background 0.3s;
-}
-
-.btn:hover {
-  background: #8b5b47;
-}
-
 /* Products */
 .products {
   text-align: center;
@@ -158,67 +145,7 @@ body {
   font-size: 1.1rem;
 }
 
-/* Contact */
-.contact {
-  padding: 80px 15%;
-  text-align: center;
-  background: #fff8f4;
-}
 
-.contact h2 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.contact p {
-  margin-bottom: 25px;
-  font-size: 1.1rem;
-}
-
-.contact-btn {
-  background: #333;
-  color: #fff;
-}
-
-.contact-btn:hover {
-  background: #a8745b;
-}
-
-/* Responsive */
-@media (max-width: 900px) {
-  .navbar {
-    flex-direction: column;
-    padding: 15px 20px;
-  }
-
-  .nav-links {
-    margin-top: 10px;
-  }
-
-  .landing-content {
-    left: 5%;
-    text-align: center;
-    max-width: 90%;
-  }
-
-  .landing-content h1 {
-    font-size: 2.2rem;
-  }
-
-  .product-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 600px) {
-  .landing-content h1 {
-    font-size: 1.8rem;
-  }
-
-  .product-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 /* Footer */
 footer{
@@ -242,4 +169,3 @@ footer ul{
     padding-top: 50px;
     align-content: center;
 }
-
